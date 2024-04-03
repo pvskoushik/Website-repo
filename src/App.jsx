@@ -8,14 +8,16 @@ function App() {
 
   return (
     <Container>
-        <Row>
-            <Col><h1>App component</h1></Col>
-            <button as={Link} to={"/home"}>home</button>
-        </Row>
-        <Row>
-          <Col><Routes><Route path='/home' element={<Home/>}/>  
-          <Route path='/'/></Routes> </Col>
-        </Row>
+      <Row>
+        <Col><h1>App component</h1></Col>
+        <button as={Link} to={"/home"}>home</button>
+      </Row>
+      <Row>
+        <Col><Routes>
+          <Route path='/home' element={<Home />} />
+          <Route path='/home' element={<Home />} />
+        </Routes> </Col>
+      </Row>
     </Container>
   )
 }
