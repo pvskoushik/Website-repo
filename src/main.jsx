@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import App from './app'
+import App from "./app"
 import "bootstrap/dist/css/bootstrap.min.css"
-import "bootstrap/dist/js/bootstrap.js"
+import "bootstrap/dist/js/bootstrap"
 import { BrowserRouter } from 'react-router-dom'
 
 
