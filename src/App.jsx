@@ -14,7 +14,7 @@ function App() {
       </Row>
       <Row>
         <Col><Routes>
-          <Route path='/home' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='/home' element={<Home />} />
         </Routes> </Col>
       </Row>
